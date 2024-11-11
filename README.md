@@ -95,20 +95,20 @@ Agora, para rodar a aplicação React em um ambiente local, execute:
   ```
 Isso abrirá a aplicação React no navegador em http://localhost:3000.
 
-4. Testar o Projeto
+### 4. Testar o Projeto
 
-Após configurar e rodar tanto o backend quanto o frontend, você pode testar a aplicação acessando as rotas e interagindo com a interface. A aplicação deve consumir dados da API do Rick and Morty e exibir as informações de personagens, episódios e locais.
+Após configurar e rodar tanto o backend quanto o frontend, você pode testar a aplicação acessando as rotas e interagindo com a interface. A aplicação deve consumir dados da API do Rick and Morty e exibir as informações de personagens.
 
   Na interface do React, você verá as informações listadas, e será capaz de pesquisar e interagir com os dados da API.
   
   As requisições feitas no frontend serão enviadas ao backend Laravel, que então consulta a API externa e retorna os dados para o frontend.
 
-5. Funcionalidades a Testar
+### 5. Funcionalidades a Testar
 
-    Exibição de Personagens: A aplicação deve exibir uma lista de personagens de Rick and Morty.
+  Exibição de Personagens: A aplicação deve exibir uma lista de personagens de Rick and Morty.
     
-    Busca de Personagens: O usuário deve ser capaz de pesquisar por personagens.
+  Busca de Personagens: O usuário deve ser capaz de pesquisar por personagens.
     
-6. Considerações Finais
+### 6. Considerações Finais
 
 Este projeto integra Laravel para gerenciar a parte de backend, Node.js como servidor de desenvolvimento e React para renderizar a interface. Ele foi feito para consumir e exibir dados da API do Rick and Morty.
